@@ -1,0 +1,46 @@
+main{
+    display: flex;
+    flex: column;
+    margin-left: 2em;
+    margin-top: 1.5em;
+}
+
+#upcomingEvents{
+    width: 65%;
+}
+
+#fields{
+    width: 35%;
+    margin-left: 10em;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+#createEvent{
+    background-color: var(--accent-color);
+    color: var(--main-color);
+    height: fit-content;
+    width: fit-content;
+}
+
+#searchEvent{
+    margin-top: 2em;
+    border-style: solid;
+    border-color: var(--main-color) ;
+    height: 2em;
+    max-width: 80%;
+}
+
+.field{
+    display: flex;
+    flex-direction: row;
+}
+
+h2, h3{
+    color: var(--accent-color)
+}
+
+#eventDate{
+    margin: 3em;
+}
